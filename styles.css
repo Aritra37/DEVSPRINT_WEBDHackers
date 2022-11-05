@@ -42,6 +42,7 @@ body {
     background: -moz-linear-gradient(left, #F7FBFF 60%, #DEEEFF 40%);
     background: -webkit-linear-gradient(left, #F7FBFF 60%, #DEEEFF 40%);
     background: linear-gradient(to right, #F7FBFF 60%, #DEEEFF 40%);
+    margin-top: 1.2rem;
 }
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
@@ -49,7 +50,12 @@ body {
     font-size: 2rem;
 }
 #navbarSupportedContent {
-    margin-left: 50%;
+    margin-left: 24rem;
+}
+.nav-item {
+    margin-right: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
 }
 /* .d-flex {
     margin-: 3rem;
@@ -57,7 +63,10 @@ body {
 /* .btn {
     margin-left: 3rem;
 } */
-/* .me-2{
-    width: 350px;
-    margin-left: 10rem;
-} */
+/* SEARCH BAR AREA  */
+.me-2{
+    margin-left: 10rem;
+}
+.search {
+    margin-left: 1.5rem;
+}

@@ -50,12 +50,18 @@ body {
     font-size: 2rem;
 }
 #navbarSupportedContent {
-    margin-left: 18rem;
+    margin-left: 20rem;
 }
 .nav-item {
-    margin-right: 2.5rem;
+    /* margin-right: 2.5rem; */
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
+}
+.active {
+    margin-right: 2.5rem;
+}
+.second {
+    margin-right : 2.5rem;
 }
 /* .d-flex {
     margin-: 3rem;
@@ -68,49 +74,5 @@ body {
     margin-left: 10rem;
 }
 .search {
-    margin-left: 1.5rem;
+    margin-left:1.5rem;
 }
-
-
-/* IMAGE SECTION  */
-.image1 {
-    width: 280px;
-    margin: 5rem 0 0 0;
-    filter: drop-shadow(10px 10px 10px #222);
-
-
-}
-.image2 {
-    width: 280px;
-    filter: drop-shadow(10px 10px 10px #222);
-    margin-left: 1.5rem;
-}
-
-/* .arrow {
-    width: 12rem;
-} */
-
-/* BUTTONS  */
-.login {
-    margin:3rem 0 0 8rem;
-    width: 10rem;
-}
-.signup {
-    margin: 3rem 0 0 2rem;
-    width: 10rem;
-
-}
-
-/* CARDS RESOURCES  */
-.card {
-    margin-top: 5rem;
-    width: 75%;
-    margin-left: 6rem;
-    filter: drop-shadow(10px 10px 10px #222);
-    border-radius: 5%;
-    
-}
-.card-body {
-    font-family: 'Ubuntu', sans-serif;
-}
-

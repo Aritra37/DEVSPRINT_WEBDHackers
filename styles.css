@@ -74,5 +74,82 @@ body {
     margin-left: 10rem;
 }
 .search {
-    margin-left:1.5rem;
+    margin-left: 1.5rem;
+}
+
+
+/* IMAGE SECTION  */
+.image1 {
+    width: 280px;
+    margin: 5rem 0 0 0;
+    filter: drop-shadow(10px 10px 10px #222);
+
+
+}
+.image2 {
+    width: 280px;
+    filter: drop-shadow(10px 10px 10px #222);
+    margin-left: 1.5rem;
+}
+
+/* .arrow {
+    width: 12rem;
+} */
+
+/* BUTTONS  */
+.signup {
+    margin: 3rem 0 0 8rem;
+    width: 15rem;
+
+}
+
+/* CARDS RESOURCES  */
+.card {
+    margin-top: 5rem;
+    width: 75%;
+    margin-left: 6rem;
+    filter: drop-shadow(10px 10px 10px #222);
+    border-radius: 5%;
+    
+}
+.card-body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+@media only screen and (max-width: 1447px) {
+    #navbarSupportedContent {
+        margin-left: 8rem;
+    }
+}
+@media only screen and (max-width: 1259px) {
+    #navbarSupportedContent {
+        margin-left: 4rem;
+    }
+    .image1 {
+        z-index : -1;
+    }
+    .image2 {
+        position : absolute;
+        top: 10rem;
+        right: 10rem;
+        transform: rotate(20deg);
+    }
+}
+@media only screen and (max-width: 1195px) {
+    #navbarSupportedContent {
+        margin-left: 2rem;
+    }
+    .me-2 {
+        margin-left: 3rem;
+    }
+    .image1 {
+        z-index : -1;
+    }
+    .image2 {
+        position : absolute;
+        top: 8rem;
+        right: 8rem;
+        transform: rotate(20deg);
+    }
 }

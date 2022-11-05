@@ -116,6 +116,26 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+/* Footer section */
+#footer{
+    background-color: #fff;
+    padding: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    align-items: center;
+    margin:0 0 0 35rem;
+    background: -moz-linear-gradient(left, #F7FBFF 30%, #DEEEFF 60%);
+    background: -webkit-linear-gradient(left, #F7FBFF 30%, #DEEEFF 60%);
+    background: linear-gradient(to right, #F7FBFF 30%, #DEEEFF 60%);
+}
+.social-id{
+    margin: 3rem 2rem;
+    font-size: 1.3rem;
+}
+
+.ending{
+    margin-left:5rem;
+}
 
 @media only screen and (max-width: 1447px) {
     #navbarSupportedContent {
@@ -151,5 +171,58 @@ body {
         top: 8rem;
         right: 8rem;
         transform: rotate(20deg);
-    }
+    }
 }
+@media only screen and (max-width: 1112px) {
+    #navbarSupportedContent {
+        margin-left: 2rem;
+    }
+    .me-2 {
+        margin-left: 3rem;
+    }
+    .image1 {
+        margin-left: 2rem;
+        z-index : -1;
+    }
+    .image2 {
+        position : absolute;
+        top: 8rem;
+        right: 7rem;
+        transform: rotate(20deg);
+    }
+}
+@media only screen and (max-width: 994px) {
+    .image2 {
+        position: relative;
+        transform: rotate(0);
+        margin-left: 10rem;
+    }
+}
+@media only screen and (max-width: 994px) {
+    .image2 {
+        display: none;
+    }
+    .image1 {
+        /* margin: 3rem 0 0 10rem; */
+        margin-left : 30%;
+        /* width: 230px; */
+    }
+    .navbar-brand {
+        margin-left: 2rem;
+    }
+    .heading {
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+    .me-2 {
+        margin-left: 1rem;
+    }
+    .subtext {
+        margin-left: 3rem;
+    }
+    .subtext2 {
+        margin-left: 3rem;
+    }
+}
+
+

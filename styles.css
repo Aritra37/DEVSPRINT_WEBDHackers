@@ -1,5 +1,4 @@
 body {
-    background: green;
     background: -moz-linear-gradient(left, #F7FBFF 60%, #DEEEFF 40%);
     background: -webkit-linear-gradient(left, #F7FBFF 60%, #DEEEFF 40%);
     background: linear-gradient(to right, #F7FBFF 60%, #DEEEFF 40%);
@@ -8,22 +7,57 @@ body {
 /* "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif; */
 
 .heading {
-    font-family: 'Montserrat-Black', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 10rem 0 0 1rem;
     line-height: 1.5;
     width: 50%;
     font-size: 3.5rem;
+    color: #202838;
+}
+.heading_subpart {
+    color: #FF7360;
 }
 .subtext {
     font-family: 'Montserrat-Black', sans-serif;
     width: 40%;
     margin: 2rem 0 0 1rem;
     line-height: 1.5;
+    /* color: #B2B2B2; */
+    color: #7F8487;
+    font-size: 1.1rem;
 }
 .subtext2 {
     font-family: 'Montserrat-Black', sans-serif;
     width: 40%;
     margin: 1rem 0 0 1rem;
-    line-height: 1.5;
-
+    line-height: 1.5;
+    color: #7F8487;
+    font-size: 1.2rem;
+    
 }
+
+
+/* NAVBAR SECTION  */
+.navbar {
+    background: -moz-linear-gradient(left, #F7FBFF 60%, #DEEEFF 40%);
+    background: -webkit-linear-gradient(left, #F7FBFF 60%, #DEEEFF 40%);
+    background: linear-gradient(to right, #F7FBFF 60%, #DEEEFF 40%);
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 7.6rem;
+    font-size: 2rem;
+}
+#navbarSupportedContent {
+    margin-left: 50%;
+}
+/* .d-flex {
+    margin-: 3rem;
+} */
+/* .btn {
+    margin-left: 3rem;
+} */
+/* .me-2{
+    width: 350px;
+    margin-left: 10rem;
+} */

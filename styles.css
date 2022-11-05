@@ -8,9 +8,9 @@ body {
 
 .heading {
     font-family: 'Ubuntu', sans-serif;
-    margin: 10rem 0 0 1rem;
+    margin: 8rem 0 0 8rem;
     line-height: 1.5;
-    width: 50%;
+    width: 80%;
     font-size: 3.5rem;
     color: #202838;
 }
@@ -19,8 +19,8 @@ body {
 }
 .subtext {
     font-family: 'Montserrat-Black', sans-serif;
-    width: 40%;
-    margin: 2rem 0 0 1rem;
+    width: 50%;
+    margin: 2rem 0 0 8rem;
     line-height: 1.5;
     /* color: #B2B2B2; */
     color: #7F8487;
@@ -28,8 +28,8 @@ body {
 }
 .subtext2 {
     font-family: 'Montserrat-Black', sans-serif;
-    width: 40%;
-    margin: 1rem 0 0 1rem;
+    width: 50%;
+    margin: 1rem 0 0 8rem;
     line-height: 1.5;
     color: #7F8487;
     font-size: 1.2rem;
@@ -50,11 +50,11 @@ body {
     font-size: 2rem;
 }
 #navbarSupportedContent {
-    margin-left: 24rem;
+    margin-left: 18rem;
 }
 .nav-item {
-    margin-right: 3rem;
-    font-family: 'Roboto', sans-serif;
+    margin-right: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
 }
 /* .d-flex {
@@ -68,5 +68,49 @@ body {
     margin-left: 10rem;
 }
 .search {
-    margin-left: 1.5rem;
+    margin-left: 1.5rem;
 }
+
+
+/* IMAGE SECTION  */
+.image1 {
+    width: 280px;
+    margin: 5rem 0 0 0;
+    filter: drop-shadow(10px 10px 10px #222);
+
+
+}
+.image2 {
+    width: 280px;
+    filter: drop-shadow(10px 10px 10px #222);
+    margin-left: 1.5rem;
+}
+
+/* .arrow {
+    width: 12rem;
+} */
+
+/* BUTTONS  */
+.login {
+    margin:3rem 0 0 8rem;
+    width: 10rem;
+}
+.signup {
+    margin: 3rem 0 0 2rem;
+    width: 10rem;
+
+}
+
+/* CARDS RESOURCES  */
+.card {
+    margin-top: 5rem;
+    width: 75%;
+    margin-left: 6rem;
+    filter: drop-shadow(10px 10px 10px #222);
+    border-radius: 5%;
+    
+}
+.card-body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
